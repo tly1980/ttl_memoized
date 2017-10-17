@@ -12,3 +12,6 @@ tox:
 
 pypi: README.rst
 	python setup.py bdist_wheel --universal upload -r pypi
+
+
+all: package test

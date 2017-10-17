@@ -2,13 +2,22 @@
 
 # TTL Memoized - A memoized decorator with TTL (time-to-live) support.
 
-The idea of `memoized` is great, as some resources are expensive, so you want to cache it.
-
-The python3 functools comes with LRU cache.
+The idea of `memoized` is great, as some resources are expensive, so you want to cache them.
 
 However, there isn't a memoized lib support TTL (time-to-live)  at the moment, or I haven't find any thing yet.
 
 So I implement this lib to fill in the gap here.
+
+## Installation:
+
+Should be faily simple using pip:
+
+```
+pip install ttl_memoized
+```
+
+## Usage
+
 
 The usage is simple, and the best way to explain it, is with my test cases:
 
@@ -42,4 +51,8 @@ def test_basic():
   assert b1 != b(1, 2, 3, what='ever', you='want', to='be')
 
 ```
+
+## Ceveat
+
+The parameter for the functions is required to be serializable with [json](https://docs.python.org/2/library/json.html) libs, as the lib is using json to build the keys from parameters.
 
