@@ -1,5 +1,5 @@
 test:
-	pytest
+	python setup.py test
 
 README.rst: README.md
 	pandoc --from=markdown --to=rst --output=README.rst README.md

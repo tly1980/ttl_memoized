@@ -22,7 +22,6 @@ install_requires = []
 PY_VERSIONS = [
     '2.6',
     '2.7',
-    '3.2',
     '3.3',
     '3.4',
     '3.5',
@@ -61,4 +60,7 @@ if __name__ == '__main__':
     install_requires=install_requires,
     license="MIT",
     classifiers=classifiers,
+    setup_requires=['pytest-runner',],
+    tests_require=['pytest', 'pytest-cov'],
+    test_suite="test_memoized",
   )

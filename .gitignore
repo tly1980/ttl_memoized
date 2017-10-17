@@ -7,3 +7,4 @@ dist/
 build/
 ttl_memoized.egg-info/
 .tox/
+.eggs/
