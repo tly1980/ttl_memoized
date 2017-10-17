@@ -6,3 +6,4 @@ README.rst
 dist/
 build/
 ttl_memoized.egg-info/
+.tox/
