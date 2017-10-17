@@ -1,4 +1,6 @@
+[![PyPI version](https://badge.fury.io/py/ttl_memoized.svg)](https://badge.fury.io/py/ttl_memoized)
 [![Build Status](https://travis-ci.org/tly1980/ttl_memoized.svg?branch=master)](https://travis-ci.org/tly1980/ttl_memoized)
+
 
 # TTL Memoized - A memoized decorator with TTL (time-to-live) support.
 
