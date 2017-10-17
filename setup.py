@@ -20,7 +20,10 @@ with open('README.rst', encoding='utf8') as f:
 install_requires = []
 
 PY_VERSIONS = [
+    '2.6',
     '2.7',
+    '3.2',
+    '3.3',
     '3.4',
     '3.5',
     '3.6',
