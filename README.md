@@ -1,4 +1,6 @@
-# TTL (time-to-live) Memoized - A memoized decorator with TTL support.
+[![Build Status](https://travis-ci.org/tly1980/ttl_memoized.svg?branch=master)](https://travis-ci.org/tly1980/ttl_memoized)
+
+# TTL Memoized - A memoized decorator with TTL (time-to-live) support.
 
 The idea of `memoized` is great, as some resources are expensive, so you want to cache it.
 
