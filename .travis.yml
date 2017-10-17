@@ -9,6 +9,7 @@ python:
   - "3.6"
 # command to run tests
 install:
+  - sudo apt-get install -y python-logilab-common
   - pip install pytest
 script:
   - pytest
