@@ -8,7 +8,7 @@ The idea of `memoized` is great, as some resources are expensive, so you want to
 
 However, there isn't a memoized lib support TTL (time-to-live)  at the moment, or I haven't find any thing yet.
 
-So I implement this lib to fill in the gap here.
+So I implement this [ttl_memoized](http://github.com/tly1980/ttl_memoized) to fill in the gap here.
 
 Also, this lib is meant to be thread-safe, using [threading.local](https://docs.python.org/2/library/threading.html#threading.local) object to store the variables.
 
