@@ -1,10 +1,10 @@
-# TTL Memoized - A memoized decorator with TTL support.
+# TTL (time-to-live) Memoized - A memoized decorator with TTL support.
 
 The idea of `memoized` is great, as some resources are expensive, so you want to cache it.
 
 The python3 functools comes with LRU cache.
 
-However, there isn't a memoized lib support TTL at the moment, or I haven't find any thing yet.
+However, there isn't a memoized lib support TTL (time-to-live)  at the moment, or I haven't find any thing yet.
 
 So I implement this lib to fill in the gap here.
 

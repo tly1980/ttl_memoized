@@ -8,8 +8,8 @@ import os
 from codecs import open
 
 
-name = 'TTLMemoized'
-description = 'TTLMemoized - a memoized decorator with TTL support'
+name = 'ttl_memoized'
+description = 'TTLMemoized - a memoized decorator with TTL (time-to-live) support'
 
 with open("{name}.py".format(name=name), encoding='utf-8') as f:
   version = re.search("^__version__\s*=\s*[\'\"]([^\'\"]+)", f.read(), flags=re.I | re.M).group(1)
@@ -49,7 +49,7 @@ if __name__ == '__main__':
   setup(
     name=name,
     version=version,
-    description='gcreds - a credential management tool using google cloud',
+    description=description,
     long_description=long_description,
     author='Tom Tang',
     author_email='tly1980@gmail.com',
